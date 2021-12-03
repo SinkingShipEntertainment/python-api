@@ -42,4 +42,4 @@ uuid = "repository.python-api"
 
 def commands():
     env.REZ_SG_API_ROOT = "{root}"
-    env.PYTHONPATH.append("{root}/shotgun_api3")
+    env.PYTHONPATH.append("{root}")
